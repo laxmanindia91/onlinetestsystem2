@@ -1,0 +1,5 @@
+#Options +MultiViews
+RewriteEngine On 
+#Look for the word "project3" folder followed by a slash 
+ RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ index.php
